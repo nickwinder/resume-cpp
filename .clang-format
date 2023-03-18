@@ -1,0 +1,11 @@
+BasedOnStyle: Google
+
+AllowShortFunctionsOnASingleLine: None
+AccessModifierOffset: -4
+ColumnLimit: 120
+ContinuationIndentWidth: 6
+DerivePointerAlignment: false
+PointerAlignment: Left
+IndentWidth: 4
+SpaceAfterTemplateKeyword: true
+IncludeBlocks: Preserve

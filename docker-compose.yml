@@ -1,0 +1,15 @@
+version: '3.6'
+
+x-bind-mount: &bind-mount
+  type: 'bind'
+  consistency: 'delegated'
+
+services:
+  dev:
+    build:
+      dockerfile: Dockerfile
+    working_dir: /source
+    volumes:
+      - source: '.'
+        target: '/source'
+        <<: *bind-mount
